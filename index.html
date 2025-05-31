@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanoids 2025 - Real World Physical and Social Human-Robot Interaction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+	    background-image: url("robothuman_boxcarry.jpeg");
+	    background-size: cover;
+	    background-position: center;
+	    opacity: 0.95;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 20px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .schedule {
+            display: none;
+        }
+	
+        /* Styles for all  jumbotron */
+        .jumbotron {
+            background-color: #ddffff; /* Lighter blue background for Program */
+	}
+
+        /* Styles for the "Home" jumbotron */
+	.home-jumbotron {
+            background-color: #ddffff; /* Light blue background for Home */
+	}
+
+	.speaker-img {
+        width: 200px; /* Set a fixed width */
+        height: 200px; /* Set a fixed height */
+        object-fit: contain; /* Ensures the image is properly cropped */
+        border-radius: 50%; /* Optional: Make the images circular */
+        display: block;
+        margin: 0 auto 10px; /* Center the image */
+        }
+
+        .speaker-card {
+        text-align: center; /* Center text and image */
+        margin-bottom: 30px;
+       }
+
+       .organizer-img {
+        width: 150px; /* Set a fixed width */
+        height: 150px; /* Set a fixed height */
+        object-fit: contain; /* Ensures the image is properly cropped */
+        border-radius: 50%; /* Optional: Make the images circular */
+        display: block;
+        margin: 0 auto 10px; /* Center the image */
+        }
+
+        .organizer-card {
+        text-align: center; /* Center text and image */
+        margin-bottom: 30px;
+       }
+
+	
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">RW-HRI Humanoids 2024</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('home')">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('program')">Program</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('speakers')">Speakers</a>
+            </li>
+	    <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('accepted-papers')">Accepted Papers for Spotlight</a>
+            </li>
+	    <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('contributions')">Call for Contributions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showSection('contact')">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container" id="home">
+    <div class="jumbotron home-jumbotron">
+        <h1 class="display-4">Humanoids in Action: Real-World Interaction, Expectations, and Challenges</h1>
+        <p class="lead">2nd Workshop on Real-World Physical and Social Human-Robot Interaction</p>
+        <hr class="my-4">
+
+        <p>With the rise of humanoid robots, human-robot interaction (HRI) is undergoing a significant transformation.Unlike traditional robots, humanoids mimic human form and behavior, making natural and high-quality interaction essential. As these robots move from research labs into real-world settings—such as homes,
+hospitals, and workplaces—HRI must adapt accordingly. Humanoids must not only perceive a wide array of
+human cues—visual, auditory, tactile, and even emotional—but also respond in socially intelligent,
+context-aware ways, despite the unpredictability and variability of real environments and human
+behaviours. Academia and industry approach these challenges differently: the former emphasizes
+foundational research, while the latter focuses on scalable, deployable solutions. Bridging these
+perspectives is crucial for the development of humanoids that are not only effective but also accepted in
+everyday life.
+This workshop—now in its second edition—aims to bring together leading researchers, practitioners, and
+industry stakeholders to critically examine the expectations and challenges of interacting with humanoid
+robots in real-world settings. We will explore the recent advancements in the integration of physical and
+social HRI for and the design of user-centred interfaces that can flexibly adapt to diverse users and
+scenarios. Discussion will involve multimodal perception, adaptive human-robot communication, tactile and
+gestural feedback, sensor fusion, and context-awareness.
+Building on the success of our inaugural workshop at IEEE Humanoids last year, this year’s event will feature
+keynote talks by established researchers from academia and industry followed by interactive panel
+discussions. We will also invite short contributions covering theoretical frameworks, empirical studies,
+design case studies, and innovative applications, particularly those that highlight the interplay between
+physical embodiment and social engagement. By fostering dialogue across academia, industry, and physical
+and social HRI enthusiasts, this workshop seeks to catalyse new collaborations and chart a path towards
+humanoids capable of seamless, safe, and meaningful human interaction in the real world. To maximize the
+impact and visibility of the workshop outcomes, we will make all accepted short papers publicly available on our website: https://rwhri.github.io/Humanoids2025_workshop/. Furthermore, we also plan to propose a
+dedicated special issue in a related RAS journal, inviting authors to extend the short paper contributions or
+to submit other relevant works inspired by the discussions initiated at the workshop. </p>
+
+     </div>
+</div>
+
+<div class="container schedule" id="program">
+    <div class="jumbotron">
+        <h2>Program Schedule</h2>
+	<p> The workshop is held in hybrid mode, Please Join the online Meeting: TBD,</p>
+	<p> If you are attending, please fill up this form alongwith some questions for the panelists in our panel discussions here: TBD</p>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Talk</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>09:00 - 09:10</td><td>Introduction</td></tr>
+                <tr><td>09:10 - 09:40</td><td>Keynote 1 – Academia</td></tr>
+                <tr><td>09:40 - 10:10</td><td>Keynote 2 – Industry</td></tr>
+                <tr><td>10:10 - 10:40</td><td>Break</td></tr>
+                <tr><td>10:40 - 11:10</td><td>Spotlight Talks 1</td></tr>
+                <tr><td>11:10 - 11:40</td><td>Spotlight Talks 2</td></tr>
+                <tr><td>11:40 - 12:10</td><td>Panel 1</td></tr>
+                <tr><td>12:10 - 13:00</td><td>Lunch Break</td></tr>
+                <tr><td>13:00 - 13:30</td><td>Keynote 3 – Academia</td></tr>
+                <tr><td>13:30 - 14:00</td><td>Keynote 4 – Industry/Academia</td></tr>
+                <tr><td>14:00 - 14:30</td><td>Spotlight Talks 3</td></tr>
+                <tr><td>14:30 - 15:00</td><td>Spotlight Talks 4</td></tr>
+                <tr><td>15:00 - 15:30</td><td>Panel 2</td></tr>
+                <tr><td>15:30 - 16:00</td><td>Closing Remarks</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="container schedule" id="speakers">
+<div class="jumbotron home-jumbotron">
+        <h2>Speakers</h2>
+        <p>We will announce our confirmed speakers from academia and industry shortly. Stay tuned!</p>
+
+    
+
+    
+</div>
+</div>
+
+<div class="container spotlight" id="accepted-papers">
+    <div class="jumbotron">
+        <h2>Accepted Papers for Spotlight Presentations: TBD</h2>
+        
+        
+    </div>
+</div>
+	
+<div class="container schedule" id="contributions">
+    <div class="jumbotron">
+        <h2>Call for Contributions</h2>
+        <p>
+            <strong>Date:</strong> October 2, 2025 (Full-day workshop)<br>
+            <strong>Location:</strong> Hybrid (Seoul, South Korea and online), as part of The 2025 IEEE-RAS International Conference on Humanoid Robots, IEEE-Humanoids 2025.<br>
+            <strong>Submission Instruction:</strong> Email your contributions to: <a href="mailto:whsop.realworld.hri@gmail.com">whsop.realworld.hri@gmail.com</a><br>
+            <strong>Contact for submissions:</strong> <a href="mailto:paragk@kth.se">paragk@kth.se</a>.
+        </p>
+        
+        <h3>IMPORTANT DATES</h3>
+        <p>TBD</p>
+        <hr>
+
+        <h3>SUBMISSION GUIDELINES</h3>
+        <p>
+            Manuscripts should be written in English and will undergo a single-blind review by the organizing committee. The length should be 2-4 pages excluding references. We welcome contributions that include work in progress, preliminary results, technical reports, case studies, surveys, and state-of-the-art research. Position papers are also welcome and should be at least 2 pages excluding references. These can be research project proposals or plans without results. Authors must use the Humanoids templates provided, formatted for US Letter. The templates can be downloaded below.
+        </p>
+        <p><strong>Manuscript Templates:</strong> <a href="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fras.papercept.net%2Fconferences%2Fsupport%2Ftex.php&data=05%7C02%7Cyadollah%40live.lancs.ac.uk%7C4ad413befc614cd18bf508dc7660b31a%7C9c9bcd11977a4e9ca9a0bc734090164a%7C0%7C0%7C638515404894323557%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=%2Fi%2B5zkzbpQa%2BM360ywxP0vBQR9gPfPs0vTolpHYrqS8%3D&reserved=0" target="_blank">LaTeX</a>, <a href="https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fras.papercept.net%2Fconferences%2Fsupport%2Fword.php&data=05%7C02%7Cyadollah%40live.lancs.ac.uk%7C4ad413befc614cd18bf508dc7660b31a%7C9c9bcd11977a4e9ca9a0bc734090164a%7C0%7C0%7C638515404894330332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=XltFZwuZhQFRBmFIKSUVuFWXg27Yr8qTTtIofTl%2FbmI%3D&reserved=0" target="_blank">Word</a></p>
+    </div>
+</div>
+
+
+<div class="container schedule" id="contact">
+ <div class="jumbotron">
+    <h2>Contact</h2>
+    <p><strong>Organizers:</strong></p>
+    <div class="row">
+	<!-- Organizer 2 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="parag.jpeg" alt="Parag Khanna" class="organizer-img">
+                <h3>Parag Khanna</h3>
+                <p>PostDoctoral Researcher, KTH Royal Institute of Technology, Sweden <a href="mailto:paragk@kth.se">paragk@kth.se</a></p>
+            </div>
+        </div>
+	    
+        <!-- Organizer 1 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="toappear.jpeg" alt="Elmira Yadollahi" class="organizer-img">
+                <h3>Davide Torielli</h3>
+                <p>PostDoctoral Researcher, Italian Institute of Technology, Italy <a href="mailto:davide.torielli@iit.it">davide.torielli@iit.it</a> </p>
+            </div>
+        </div>
+
+	<!-- Organizer 3 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="ziwei.jpg" alt="Ziwei Wang" class="organizer-img">
+                <h3>Ziwei Wang</h3>
+                <p>Assistant Professor, Lancaster University, United Kingdom <a href="mailto:z.wang82@lancaster.ac.uk">z.wang82@lancaster.ac.uk</a></p>
+            </div>
+        </div>
+    </div>
+     <div class="row">
+        <!-- Organizer 1 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="angela.jpg" alt="Elmira Yadollahi" class="organizer-img">
+                <h3>Angela Faragasso</h3>
+                <p> Lead Researcher Engineer, Finger Vision Inc., Japan<a href="mailto:angela.faragaso@fingervision.biz">angela.faragaso@fingervision.biz</a></p>
+            </div>
+        </div>
+
+	<!-- Organizer 2 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="toappear.jpeg" alt="Barbara Bruno" class="organizer-img">
+                <h3>Nikos Tsagarakis</h3>
+                <p>Principal Investigator, Italian Institute of Technology, Italy: <a href="mailto:Nikos.tsagarakis@iit.it">Nikos.tsagarakis@iit.it</a></p>
+            </div>
+        </div>
+
+	<!-- Organizer 3 -->
+        <div class="col-md-4">
+            <div class="organizer-card">
+                <img src="chirstian.jpg" alt="Christian Smith" class="organizer-img">
+                <h3>Christian Smith</h3>
+                <p>Associate Professor, KTH Royal Institute of Technology, Sweden: <a href="mailto:ccs@kth.se">ccs@kth.se</a></p>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+<div class="footer">
+    <p>&copy; 2025 Humanoids RW-HRI. All rights reserved.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function showSection(sectionId) {
+        // Hide all sections
+        document.querySelectorAll('.container').forEach(function(section) {
+            section.style.display = 'none';
+        });
+        // Show the selected section
+        document.getElementById(sectionId).style.display = 'block';
+    }
+    
+    // Show the home section by default
+    showSection('home');
+</script>
+</body>
+</html>
